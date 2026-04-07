@@ -2,7 +2,7 @@
 includes("lib/commonlibsse-ng")
 
 -- set project constants
-set_project("commonlibsse-ng-template")
+set_project("QuickLoot IE Example Plugin")
 set_version("0.0.0")
 set_license("GPL-3.0")
 set_languages("c++23")
@@ -13,11 +13,11 @@ add_rules("mode.debug", "mode.releasedbg")
 add_rules("plugin.vsxmake.autoupdate")
 
 -- define targets
-target("commonlibsse-ng-template")
+target("QuickLoot IE Example Plugin")
     add_rules("commonlibsse-ng.plugin", {
-        name = "commonlibsse-ng-template",
+        name = "QuickLoot IE Example Plugin",
         author = "libxse",
-        description = "SKSE64 plugin template using CommonLibSSE-NG"
+        description = "QuickLoot IE Example Plugin"
     })
 
     -- add src files
